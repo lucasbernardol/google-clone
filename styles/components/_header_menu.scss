@@ -1,0 +1,46 @@
+.header-menu {
+  width: auto;
+  padding-right: 1.2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .desktop-container {
+    display: none; // hidden
+    opacity: 0;
+
+    a {
+      display: block;
+      padding: 1.2rem 0.8rem;
+
+      color: var(--color-highlight);
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    @media (min-width: 700px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      opacity: 1;
+    }
+  }
+
+  button {
+    @include anchor_button($margin: true);
+  }
+
+  .avatar {
+    width: 3.2rem;
+    height: 3.2rem;
+
+    border: 1px solid var(--color-gray-line);
+    border-radius: 50%;
+
+    overflow: hidden;
+  }
+}

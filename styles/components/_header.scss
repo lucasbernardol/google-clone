@@ -1,0 +1,17 @@
+@import './header_wrapper';
+
+@import './header_menu';
+@import './header_menu_mobile';
+
+.header-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (min-width: 700px) {
+    justify-content: right;
+  }
+}

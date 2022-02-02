@@ -1,0 +1,32 @@
+.header-menu-mobile {
+  width: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    @include anchor_button($margin: true);
+  }
+
+  a {
+    display: block;
+
+    padding: 1.2rem 0.8rem;
+    color: var(--color-dark-gray);
+    text-transform: uppercase;
+
+    font-weight: bold;
+
+    border-bottom: 2px solid transparent;
+
+    &.active {
+      color: var(--color-primary);
+      border-color: var(--color-primary);
+    }
+  }
+
+  @media (min-width: 700px) {
+    display: none;
+  }
+}

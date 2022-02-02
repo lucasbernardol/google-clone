@@ -1,3 +1,6 @@
 @charset "utf-8";
 
-@import './shared/reset'; // file: reset-css.
+@import './common'; // file: reset-css.
+@import './mixins';
+
+@import './pages/home';

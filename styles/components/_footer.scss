@@ -1,0 +1,12 @@
+@import './footer-wrapper';
+
+@import './footer_divider';
+@import './footer_hyperlinks';
+
+.footer-container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

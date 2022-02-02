@@ -5,6 +5,9 @@
   "repository": "https://github.com/lucasbernardol/google-clone.git",
   "author": "lucasbernardol <jose.lukass03@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev:sass": "sass styles/index.scss --watch -s compressed dist/index.css"
+  },
   "devDependencies": {
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",

@@ -1,0 +1,22 @@
+:root {
+  --color-primary: #4285f4;
+
+  --color-dark-gray: #757575;
+  --color-light-gray: #f2f2f2;
+
+  --color-gray-line: #dfe1e5;
+  --color-dark-blue: #1a0dab;
+  --color-highlight: #323232;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+  --color-white: #fff;
+
+  /*
+    (65,5% => 10px) 
+    (1rem = 16px)
+    * { font-size: 10px };
+
+
+    (1.6rem = 10 * 1,6 = 16px)
+  */
+  font-size: 62.5%;
+}

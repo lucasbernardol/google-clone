@@ -42,5 +42,15 @@
     border-radius: 50%;
 
     overflow: hidden;
+
+    img {
+      @include full-width(); //(100%)
+      border-radius: 50%;
+    }
+  }
+
+  @media (min-width: 700px) {
+    padding-right: 1.6rem;
+    margin-top: 1rem;
   }
 }

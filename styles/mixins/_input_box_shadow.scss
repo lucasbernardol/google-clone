@@ -1,0 +1,4 @@
+@mixin input_box_shadow {
+  box-shadow: 3px 3px 8px -1px var(--color-shadow),
+    -2px -2px 8px -1px var(--color-shadow);
+}

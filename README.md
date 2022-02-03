@@ -48,7 +48,7 @@ Visual Studio Code ou simplesmente vscode) ou [http-server](https://www.npmjs.co
 
 ### :memo: Licença (MIT)
 
-O projeto possui a licença _MIT_ e paara mais informações veja o
+O projeto possui a licença _MIT_ e para mais informações veja o
 arquivo [LICENSE](LICENSE)
 
 ---
